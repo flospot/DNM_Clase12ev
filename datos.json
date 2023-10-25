@@ -1,0 +1,59 @@
+[
+    {
+        "nombre": "Viaje al Piñón",
+        "fotos": ["https://raw.githubusercontent.com/flospot/DNM_Clase12ev/main/IMG/1.1.png", "https://raw.githubusercontent.com/flospot/DNM_Clase12ev/main/IMG/1.2.png", "https://raw.githubusercontent.com/flospot/DNM_Clase12ev/main/IMG/1.3.png"],
+        "soporte": "editorial",
+        "abstract": "Generar libro objeto sobre la naturaleza nacional con escritos personales y citas.",
+        "texto": "El proyecto encomendado implicaba la creación editorial de un libro que fungiera como una expresión personal sobre la identidad nacional. Este libro tenía el propósito de combinar escritos originales con citas de renombrados autores para proporcionar una reflexión enriquecedora. En el centro del libro se despliegan dos narrativas entorno a las semillas de la Araucaria Araucana. La primera se desenvuelve en su entorno natural en el sur, mientras que la segunda trae una semilla a Santiago y la planta en medio de la ciudad. Ambas historias apuntan a ilustrar cómo a menudo exponemos a la naturaleza a condiciones explotadoras, percibiéndola meramente como decoración y no como un ser vivo.Esta obra invita a una introspección sobre nuestro trato hacia la naturaleza y la importancia de preservarla con respeto y empatía."
+    },
+    {
+        "nombre": "Gráficas Puclítico",
+        "fotos": ["https://raw.githubusercontent.com/flospot/DNM_Clase12ev/main/IMG/2.1.png", "https://raw.githubusercontent.com/flospot/DNM_Clase12ev/main/IMG/2.2.png", "https://raw.githubusercontent.com/flospot/DNM_Clase12ev/main/IMG/2.3.png"],
+        "soporte": "digital",
+        "abstract": "Piezas gráficas informativas de un medio de comunicación universitario.",
+        "texto": "El PUClítico es, desde hace 11 años, un medio de comunicación universitario gestionado por estudiantes (en su mayoría) de la Facultad de Comunicaciones. Me uní a su equipo de trabajo desde inicios de este año ya que me interesaba bastante el trabajo comunicacional que tenían y el seguimiento que le hacían a la política universitaria, temática que también me interesa. En las siguientes imágenes se pueden ver algunos trabajos y propuestas de gráficas que he hecho siempre en conjunto con les editores y el director del PUClítico, Max Arancibia."
+    },
+    {
+        "nombre": "La Legua Recuerda",
+        "fotos": ["https://raw.githubusercontent.com/flospot/DNM_Clase12ev/main/IMG/3.1.png", "https://raw.githubusercontent.com/flospot/DNM_Clase12ev/main/IMG/3.2.png", "https://raw.githubusercontent.com/flospot/DNM_Clase12ev/main/IMG/3.3.png"],
+        "soporte": "instalacion social",
+        "abstract": "Diseñar instalación interactiva en trazado calles de La Legua.",
+        "texto": "La creación de esta instalación se originó en la colaboración de los antropólogos Gonzalo Bórquez y Teresa Rauld, en combinación con residentes de La Legua. A través de su conocimiento espacial y el trabajo continuo de Gonzalo y Teresa, se profundizó en la comprensión de esta comunidad. La esencia del proyecto radicaba en representar las historias y recuerdos de los habitantes en el territorio. Para lograrlo, se diseñó un extenso mapa de 3x3 metros en tela cruda, que delineaba meticulosamente las calles de La Legua. Este enfoque interactivo permitió que las personas contribuyeran con sus aportes, incorporando dibujos, escritos, anotaciones y recortes directamente en la tela. Así, la instalación se convirtió en un testimonio en constante evolución de las experiencias y la memoria de la comunidad."
+    },
+    {
+        "nombre": "Museo del Diseño Chileno",
+        "fotos": ["https://raw.githubusercontent.com/flospot/DNM_Clase12ev/main/IMG/4.1.png", "https://raw.githubusercontent.com/flospot/DNM_Clase12ev/main/IMG/4.2.jpg", "https://raw.githubusercontent.com/flospot/DNM_Clase12ev/main/IMG/4.3.png"],
+        "soporte": "editorial",
+        "abstract": "Crear piezas editoriales respecto a la memoria y lo vernacular.",
+        "texto": "El proyecto consistió en la creación editorial de una categoría dentro del Museo del Diseño Chileno, enfocada en lo vernacular,patrimonial y la memoria. La investigación grupal condujo a la producción de un libro A4 que documentaba todo el proceso. Adicionalmente, se generaron publicaciones individuales en formato A5 y A3, cada una relacionada con un concepto personal derivado de la investigación grupal.Este despliegue editorial no se limitó a impresiones físicas, ya que también incluyó recursos gráficos para una cuenta ficticia de Instagram. La publicación general englobaba todo el estudio, destacando la relación entre la memoria y la vida cotidiana de los chilenos en el espacio público, subrayando la creación de códigos visuales identitarios en este entorno."
+    },
+    {
+        "nombre": "GAM",
+        "fotos": ["https://picsum.photos/id/42/500/310", "https://picsum.photos/id/42/500/310", "https://picsum.photos/id/42/500/310"],
+        "soporte": "editorial",
+        "abstract": "Donec risus neque, efficitur in sollicitudin vestibulum",
+        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat laoreet tellus quis ullamcorper. Suspendisse sit amet blandit urna. Integer et mollis odio. Phasellus a arcu urna. Nunc efficitur commodo risus, at sagittis dui accumsan at. Nunc est augue, auctor a odio sed, dapibus iaculis est. Sed ultrices luctus purus ac venenatis. Mauris ac lectus eu felis fermentum facilisis et a nunc. Cras pretium suscipit nibh sed finibus. Donec risus neque, efficitur in sollicitudin vestibulum, cursus gravida dui. Suspendisse dui nulla, convallis non facilisis a, convallis lobortis tortor. Nam nec eros fringilla, ultrices velit in, dapibus magna. Proin at pretium arcu. Donec convallis justo nulla, et ultrices sem fringilla non. In eget mi lectus"
+    },
+    {
+        "nombre": "En el baño mueren las polillas",
+        "fotos": ["https://picsum.photos/id/435/500/310", "https://picsum.photos/id/435/500/310", "https://picsum.photos/id/435/500/310"],
+        "soporte": "editorial",
+        "abstract": "Suspendisse dui nulla, facilisis lobortis tortor",
+        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat laoreet tellus quis ullamcorper. Suspendisse sit amet blandit urna. Integer et mollis odio. Phasellus a arcu urna. Nunc efficitur commodo risus, at sagittis dui accumsan at. Nunc est augue, auctor a odio sed, dapibus iaculis est. Sed ultrices luctus purus ac venenatis. Mauris ac lectus eu felis fermentum facilisis et a nunc. Cras pretium suscipit nibh sed finibus. Donec risus neque, efficitur in sollicitudin vestibulum, cursus gravida dui. Suspendisse dui nulla, convallis non facilisis a, convallis lobortis tortor. Nam nec eros fringilla, ultrices velit in, dapibus magna. Proin at pretium arcu. Donec convallis justo nulla, et ultrices sem fringilla non. In eget mi lectus"
+    },
+    {
+        "nombre": "Cartel leer más mujeres",
+        "fotos": ["https://picsum.photos/id/20/500/310", "https://picsum.photos/id/20/500/310", "https://picsum.photos/id/20/500/310"],
+        "soporte": "editorial",
+        "abstract": "Nam nec eros fringilla, ultrices velit in, dapibus",
+        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat laoreet tellus quis ullamcorper. Suspendisse sit amet blandit urna. Integer et mollis odio. Phasellus a arcu urna. Nunc efficitur commodo risus, at sagittis dui accumsan at. Nunc est augue, auctor a odio sed, dapibus iaculis est. Sed ultrices luctus purus ac venenatis. Mauris ac lectus eu felis fermentum facilisis et a nunc. Cras pretium suscipit nibh sed finibus. Donec risus neque, efficitur in sollicitudin vestibulum, cursus gravida dui. Suspendisse dui nulla, convallis non facilisis a, convallis lobortis tortor. Nam nec eros fringilla, ultrices velit in, dapibus magna. Proin at pretium arcu. Donec convallis justo nulla, et ultrices sem fringilla non. In eget mi lectus"
+    },
+    {
+        "nombre": "Trófica",
+        "fotos": ["https://picsum.photos/id/816/500/310", "https://picsum.photos/id/816/500/310", "https://picsum.photos/id/816/500/310"],
+        "soporte": "editorial",
+        "abstract": "Donec convallis justo nulla, et ultrices sem fringilla",
+        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat laoreet tellus quis ullamcorper. Suspendisse sit amet blandit urna. Integer et mollis odio. Phasellus a arcu urna. Nunc efficitur commodo risus, at sagittis dui accumsan at. Nunc est augue, auctor a odio sed, dapibus iaculis est. Sed ultrices luctus purus ac venenatis. Mauris ac lectus eu felis fermentum facilisis et a nunc. Cras pretium suscipit nibh sed finibus. Donec risus neque, efficitur in sollicitudin vestibulum, cursus gravida dui. Suspendisse dui nulla, convallis non facilisis a, convallis lobortis tortor. Nam nec eros fringilla, ultrices velit in, dapibus magna. Proin at pretium arcu. Donec convallis justo nulla, et ultrices sem fringilla non. In eget mi lectus"
+    }
+
+]
