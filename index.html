@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <!--En la siguiente línea voy por el estilo CSS que ofrece Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!--estilo CSS al que puede conmplementar o contradecir-->
+        <style>
+            section {
+                scroll-margin-top: 50px;
+            }
+            nav {
+                backdrop-filter: blur(0.5rem);
+            }
+            #foto {
+                background: transparent url("https://picsum.photos/id/352/800/600?blur=8") 0 0 no-repeat;
+                background-size: cover;
+            }
+            footer{
+                background: #A67788;
+            }
+        </style>
+        <title>&#128188 Portafolio FSC</title>
+    </head>
+    <body>
+        <!--Barra de navegación fija al tope-->
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Florencia Spotorno</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#lasEspecialidades">Especialidades</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#losTrabajos">Trabajos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#lasOpiniones">Opiniones</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#losContactos">Contactos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Encabezado-->        
+        <header class="vh-100" id="foto">
+            <div class="position-absolute top-50 start-50 translate-middle w-50">
+                <p class="fs-4 text-white">
+                    Hola! Soy Florencia, y para mi el diseño es la forma en la que ponemos en dialogo nuestras ideas y sentires con otros &#127799. En la práctica, me he <a href="#lasEspecialidades" class="link-light">especializado en el diseño editorial, social y digital</a>.
+                </p>
+            </div>
+        </header>
+        <!--Los símbolos en este SVG escondido serán reutilizados más abajo-->
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="editorial" viewBox="0 0 16 16">
+                <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/> </symbol>
+            <symbol id="social" viewBox="0 0 16 16">
+                <path d="M11.424 8c.437-.052.811-.136 1.04-.268a2 2 0 0 0-2-3.464c-.229.132-.489.414-.752.767C9.886 4.63 10 4.264 10 4a2 2 0 1 0-4 0c0 .264.114.63.288 1.035-.263-.353-.523-.635-.752-.767a2 2 0 0 0-2 3.464c.229.132.603.216 1.04.268-.437.052-.811.136-1.04.268a2 2 0 1 0 2 3.464c.229-.132.489-.414.752-.767C6.114 11.37 6 11.736 6 12a2 2 0 1 0 4 0c0-.264-.114-.63-.288-1.035.263.353.523.635.752.767a2 2 0 1 0 2-3.464c-.229-.132-.603-.216-1.04-.268zM9 4a1.468 1.468 0 0 1-.045.205c-.039.132-.1.295-.183.484a12.88 12.88 0 0 1-.637 1.223L8 6.142a21.73 21.73 0 0 1-.135-.23 12.88 12.88 0 0 1-.637-1.223 4.216 4.216 0 0 1-.183-.484A1.473 1.473 0 0 1 7 4a1 1 0 1 1 2 0zM3.67 5.5a1 1 0 0 1 1.366-.366 1.472 1.472 0 0 1 .156.142c.094.1.204.233.326.4.245.333.502.747.742 1.163l.13.232a21.86 21.86 0 0 1-.265.002 12.88 12.88 0 0 1-1.379-.06 4.214 4.214 0 0 1-.51-.083 1.47 1.47 0 0 1-.2-.064A1 1 0 0 1 3.67 5.5zm1.366 5.366a1 1 0 0 1-1-1.732c.001 0 .016-.008.047-.02.037-.013.087-.028.153-.044.134-.032.305-.06.51-.083a12.88 12.88 0 0 1 1.379-.06c.09 0 .178 0 .266.002a21.82 21.82 0 0 1-.131.232c-.24.416-.497.83-.742 1.163a4.1 4.1 0 0 1-.327.4 1.483 1.483 0 0 1-.155.142zM9 12a1 1 0 0 1-2 0 1.476 1.476 0 0 1 .045-.206c.039-.131.1-.294.183-.483.166-.378.396-.808.637-1.223L8 9.858l.135.23c.241.415.47.845.637 1.223.083.19.144.352.183.484A1.338 1.338 0 0 1 9 12zm3.33-6.5a1 1 0 0 1-.366 1.366 1.478 1.478 0 0 1-.2.064c-.134.032-.305.06-.51.083-.412.045-.898.061-1.379.06-.09 0-.178 0-.266-.002l.131-.232c.24-.416.497-.83.742-1.163a4.1 4.1 0 0 1 .327-.4c.046-.05.085-.086.114-.11.026-.022.04-.03.041-.032a1 1 0 0 1 1.366.366zm-1.366 5.366a1.494 1.494 0 0 1-.155-.141 4.225 4.225 0 0 1-.327-.4A12.88 12.88 0 0 1 9.74 9.16a22 22 0 0 1-.13-.232l.265-.002c.48-.001.967.015 1.379.06.205.023.376.051.51.083.066.016.116.031.153.044l.048.02a1 1 0 1 1-1 1.732zM8 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/> </symbol>
+            <symbol id="digital" viewBox="0 0 16 16">
+                <path d="M13.354.646a1.207 1.207 0 0 0-1.708 0L8.5 3.793l-.646-.647a.5.5 0 1 0-.708.708L8.293 5l-7.147 7.146A.5.5 0 0 0 1 12.5v1.793l-.854.853a.5.5 0 1 0 .708.707L1.707 15H3.5a.5.5 0 0 0 .354-.146L11 7.707l1.146 1.147a.5.5 0 0 0 .708-.708l-.647-.646 3.147-3.146a1.207 1.207 0 0 0 0-1.708l-2-2zM2 12.707l7-7L10.293 7l-7 7H2v-1.293z"/> </symbol>
+        </svg>
+        <!--Sección de #lasEspecialidades-->        
+        <section class="bg-light" id="lasEspecialidades">
+            <div class="container py-5">
+                <div class="row gx-5">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h2 class="h4 fw-bolder">
+                            <svg class="me-1 mb-1" width="1em" height="1em" fill="#a0a0a0"><use href="#editorial"></use></svg> Editorial
+                        </h2>
+                        <p>Mi trabajo se ha desenvuelto en esta área ya que el pensamiento editorial y la repercusión de los elementos análogos creo que son importantes a desarrollar en cualquier proyecto, por lo que es la habilidad manual que más he trabajado a lo largo de mi experiencia profesional.</p>
+                        
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h2 class="h4 fw-bolder">
+                            <svg class="me-1 mb-1" width="1em" height="1em" fill="#a0a0a0"><use href="#social"></use></svg> Social
+                        </h2>
+                        <p>Creo que el diseño ayuda a poner en movimiento nuestros valores e interacciones que tenemos con nuestro contexto, por lo que esta área de trabajo siempre la conecto con otros profesionales de otras áreas de aprendizaje.</p>
+                        
+                    </div>
+                    <div class="col-lg-4">
+                        <h2 class="h4 fw-bolder">
+                            <svg class="me-1 mb-1" width="1em" height="1em" fill="#a0a0a0"><use href="#digital"></use></svg> Digital
+                        </h2>
+                        <p> Debido a la gran importancia que se le dá a las redes sociales, he desarrollado diferentes trabajos que mezclan lo visual o gráfico con cómo estas piezas se desenvuelven en el mundo digital.  </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Sección de #losTrabajos-->        
+        <section class="border-top border-bottom" id="losTrabajos">
+            <div class="container py-5">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4" id="trabajos"></div>
+            </div>
+        </section>
+        <!--Sección de #lasOpiniones-->        
+        <section class="bg-light" id="lasOpiniones">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Opiniones</h2>
+                    <p class="lead mb-0">Personas con las que he trabajado </p>
+                    <p class="lead mb-0">🤝🏼 </p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 mx-auto">
+                        <!-- Primer comentario-->
+                        <div class="card mb-4 shadow-sm">
+                            <div class="card-body p-4">
+                                <p class="mb-1">Entrega todo a tiempo y es muy crítica de su trabajo, al resto de mis colegas les recomiendo trabajar con ella ya que su responsabilidad permite que el flujo de trabajo sea no solo eficaz, si no que profundo a la vez. Cuando estaba de practicante, nos mostró un libro objeto que desarrolló en uno de sus talleres y al ver que nos llamó la atención, a la semana siguiente nos desarrolló una pequeña propusta del libro adaptado al tipo de productos editoriales para infancias que desarrollamos, su practividad y entusiasmo nos motivó a desarrollar su propuesta y a mirar de otra manera lo que hacíamos en la oficina.</p>
+                                <div class="small text-muted text-end">— Marcela Fernández</div>
+                            </div>
+                        </div>
+                        <!-- Segundo comentario-->
+                        <div class="card mb-4 shadow-sm">
+                            <div class="card-body p-4">
+                                <p class="mb-1"> Como antropólogo nunca comprendí muy bien cómo el diseño me podría ayudar en mi área de trabajo, hasta que un docente me recomendó a Florencia. La manera en la que vé como conectar un trabajo de terreno y nuestras anotaciones con el equipo para de ahí transformalo en la instalación que diseñó, nos maravilló no solo a nosotros si no que también a las familias con las que pasamos largos meses conversando y compartiendo, lo que al menos a mi me guió a entender cómo desde el diseño se generan experiencias muy enriquecedoras y más importante, significativas para otros.</p>
+                                <div class="small text-muted text-end">— Gonzalo Borquez</div>
+                            </div>
+                        </div>
+                        <!-- Tercer comentario-->
+                        <div class="card mb-4 shadow-sm">
+                            <div class="card-body p-4">
+                                <p class="mb-1"> Con la flo siempre tengo la seguridad de que recibiré las gráficas a tiempo, incluso cuando nos salen trabajos de prensa el mismo día, Flo siempre está con una muy buena disposición. Además, me gusta que sea propositiva con la forma que tomará información más compleja que manejamos como medio, por lo que es un agrado encontrarse con profesionales como ella que no solo le interesa entregar su trabajo si no que también planea las repercusiones que tiene y como Puclítico eso nos ayuda bastante. </p>
+                                <div class="small text-muted text-end">— Maximiliano Arancibia</div>
+                            </div>
+                        </div>
+                        <!-- Listo, no más comentarios-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Sección de #losContactos-->        
+        <section class="border-top border-bottom" id="losContactos">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Contactos</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">                        
+                                <h3 class="m-0 fs-5"><span class="fs-1">📱</span><br/>Instagram</h4>
+                                <div class="small text-black-50">@flo.spotorno</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <h3 class="m-0 fs-5"><span class="fs-1">📧</span><br/>Email</h4>
+                                <div class="small text-black-50"><a href="#!">florencia.spotorno@uc.cl</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <h3 class="m-0 fs-5"><span class="fs-1">📞</span><br/>Teléfono</h4>
+                                <div class="small text-black-50">+56 9 4253 2445</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- El pie de página-->
+        <footer class="py-4 text-white">
+            <div class="container px-5"><p class="text-center small">Nombre Apellido &copy; 2023</p></div>
+        </footer>
+        <!-- Lo que sigue es JavaScript a secas-->
+        <script>
+            async function portfolio() {
+                const consulta = await fetch("https://raw.githubusercontent.com/flospot/DNM_Clase12ev/main/datos.json");
+                const data = await consulta.json();
+                var donde = document.querySelector("#trabajos");
+                data.forEach(function (t, i) {
+                    donde.innerHTML += `<article class="col"><div class="card h-100 shadow-sm
+                    ${t.soporte}"><img src="
+                    ${t.fotos[0]}" class="card-img-top"><div class="card-body"><h3 class="fs-5"><a href="single.html?nro=${i}" class="link-secondary">
+                    ${t.nombre}</a></h3><p>
+                    ${t.abstract}</p><small>#
+                    ${t.soporte}</small></div></div></article>`;
+                });
+            }
+            portfolio().catch((error) => console.error(error));
+        </script>
+        <!-- Lo que sigue es la biblioteca de Bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
